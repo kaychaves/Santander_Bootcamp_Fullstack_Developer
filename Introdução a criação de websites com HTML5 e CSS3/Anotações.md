@@ -29,7 +29,7 @@ A tag head contém elementos que serão lidos pelo navegador, como os metadados 
 
 E dentro da tag body colocamos todo o conteúdo visível ao usuário: textos, imagens, vídeos.
 
-**- Prática**
+**Prática**
 Como exercício para esse curso iremos construir um site pessoal, e precisamos começar com a estrutura básica que acabamos de ver.
 
 Vamos criar um arquivo index.html e adicionar o doctype e os elementos html, head e body.
@@ -38,7 +38,7 @@ Depois adicionaremos os elementos meta e title, no primeiro adicionamos o atribu
 
 E por último escreveremos nosso nome dentro do elemento body apenas para enxergarmos isso no navegador.
 
-**Semântica**
+#### Semântica
 Durante muitos anos o elemento padrão no HTML era a div, construíamos nosso conteúdo todo baseado nela, e assim nascia a sopa de divs.
 
 Mas em 2014 saiu a quinta versão do HTML, e com ela vieram vários mudanças importantes, como performance e acessibilidade, mas nesse curso introdutório vamos focar na semântica.
