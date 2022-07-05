@@ -5,4 +5,4 @@ Repositório criado para o desafio de projeto
 
 [Sintaxe Básica Markdown](https://www.markdownguide.org/basic-syntax/)
 
-[Mozilla Developer Network - MDM] (https://developer.mozilla.org/en-US/docs/Learn)
+[Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Learn)
