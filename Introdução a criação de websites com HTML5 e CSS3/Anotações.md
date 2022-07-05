@@ -2,7 +2,7 @@
 ## Material de apoio
 
 
-### ** HTML5 **
+### **HTML5**
 #### Definição e estrutura básica
 
 Em 1991 Tim Berners-Lee criou essa linguagem de marcação para melhorar a comunicação entre ele e seus colegas de trabalho no CERN, desde então já surgiram 5 versões e o HTML se tornou a base da web.
