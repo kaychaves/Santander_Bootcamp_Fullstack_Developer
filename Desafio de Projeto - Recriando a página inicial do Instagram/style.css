@@ -1,0 +1,208 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+body{
+    width: 100%;
+    min-height: 90vh;
+    background-color: #fafafa;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+ }
+
+ .instagram-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 60%;
+    height: 100vh;
+ }
+
+ .instagram-phone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+ }
+
+.instagram-phone img{
+    height: 45rem;             /* checar essa altura */
+}                            
+
+.instagram-login{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 50%;
+    min-height: 34rem;
+    margin-top: 40px;
+}
+
+.group{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    width: 80%;
+    padding: 1.3rem 0;
+    border: 1px solid #c4c4c4;
+}
+
+.group:nth-child(1){
+    min-height: 25rem;
+}
+
+.instagram-logo{
+    height: 3rem;
+}
+
+.instagram-user{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #c4c4c4;
+    border-radius: 3px;
+    background-color: #fafafa;
+    color: #d3d3d3;
+    margin-bottom: -5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 35px;
+    width: 70%;
+}
+
+.instagram-user p{
+    margin-left: 5px;
+    font-size: 12px;
+    flex-wrap: nowrap;
+}
+
+.login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    border: 1px solid #b2dffc;
+    background-color: #b2dffc;
+    border-radius: 3px;
+    color: white;
+    margin-top: 20px;
+    height: 30px;
+    width: 70%;
+}
+
+.linha{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    width: 70%;
+    border: 1px solid white;
+    gap: 10px;   
+}
+
+hr {
+    width: 100%;
+}
+
+.linha p{
+    font-weight: 550;
+    color: #8e8e8e;
+}
+
+.facebook-login{
+    display: flex;
+    align-items: center;
+}
+
+.facebook-login p{
+    color: #385a8a;
+    font-weight: 550;
+    font-size: 16px;
+}
+
+.group a h3{
+    color: #385a8a;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.group:nth-child(2){
+    min-height: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+    margin-top: 10px;   
+}
+
+.group:nth-child(2) a{
+    color: #0096f6;
+    font-weight: 650;
+    margin-left: -150px;
+}
+
+.app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1.3rem 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.download{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+}
+
+.app-download{
+    height: 3rem;
+    width: 10rem;
+    background-size: cover;
+}
+
+.app-download:nth-child(1){
+    background-image: url('img/apple-button.png');
+}
+
+.app-download:nth-child(2){
+    background-image: url('img/googleplay-button.png');
+}
+@media(max-width:1024px){
+    .instagram-wrapper{
+        width: 90%;
+    }
+
+@media(max-width: 650px){
+    body{
+        background-color: white;
+    }
+    .instagram-wrapper{
+        width: 90%;
+    }
+    .instagram-phone{
+        display: none;
+    }
+    .instagram-login{
+        width: 100%;
+    }
+    .group{
+        border: 1px solid transparent;
+    }
+}
+
+}
